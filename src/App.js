@@ -1,7 +1,12 @@
+import Counter from "./components/Counter/Counter";
+import Header from "./components/Header/Header";
+import "./styles.scss";
+
 function App() {
   return (
-    <div>
-      <h1>Hello World!</h1>
+    <div className="app">
+      <Header />
+      <Counter />
     </div>
   );
 }
